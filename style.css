@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(6px);
+}
+
+header h1 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+nav a {
+    color: #ffffff;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc70;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.events {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.events h2 {
+    margin-bottom: 40px;
+    font-size: 26px;
+}
+
+.card {
+    background: #ffffff;
+    color: #333;
+    width: 280px;
+    margin: 20px;
+    padding: 22px;
+    border-radius: 16px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    margin: 6px 0;
+}
+
+.details {
+    display: none;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #555;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.details-btn {
+    background: #ffcc70;
+    color: #333;
+}
+
+.details-btn:hover {
+    background: #f4b942;
+}
+
+.book-btn {
+    background: #ff4d4d;
+    color: #ffffff;
+}
+
+.book-btn:hover {
+    background: #28a745;
+}
+
+.booking {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.booking h2 {
+    margin-bottom: 25px;
+}
+
+.booking input,
+.booking select {
+    display: block;
+    margin: 12px auto;
+    padding: 10px 12px;
+    width: 260px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.booking input:focus,
+.booking select:focus {
+    box-shadow: 0 0 8px rgba(255, 204, 112, 0.7);
+}
+
+.booking button {
+    background: #ffcc70;
+    color: #333;
+    font-weight: 500;
+}
+
+.booking button:hover {
+    background: #f4b942;
+}
+
+footer {
+    text-align: center;
+    padding: 25px 20px;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        margin: 8px 10px;
+        display: inline-block;
+    }
+
+    .card {
+        width: 90%;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Ticket Booking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book tickets for movies, concerts, and sports events easily and securely.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== Header Section ===== -->
+    <header>
+        <h1>🎟 EventHub</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#events">Events</a>
+            <a href="#booking">Book Now</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ===== Hero Section ===== -->
+    <section class="hero">
+        <h2>Your Gateway to Entertainment</h2>
+        <p>Book tickets for the latest movies, live concerts, and sports events in just a few clicks.</p>
+    </section>
+
+    <!-- ===== Events Section ===== -->
+    <section class="events" id="events">
+        <h2>Upcoming Events</h2>
+
+        <!-- Movie Card -->
+        <div class="card">
+            <img src="https://imgs.search.brave.com/f4ejV-HYlE-r2NZGCEN5Fi7flTCDEJyguvo5lK3QznI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kaXNu/ZXkuaW1hZ2VzLmVk/Z2UuYmFtZ3JpZC5j/b20vcmlwY3V0LWRl/bGl2ZXJ5L3YyL3Zh/cmlhbnQvaHVsdS83/MURDOThBRjczMDU1/QTcwMDI2ODgwRjVC/OTBCNTA4MEY3Qzgz/QzRDNjA5QkYxMzk2/NUQzNkQ5OEEwODYw/NENGL2NvbXBvc2U_/Zm9ybWF0PXdlYnAm/d2lkdGg9MjU2MA"
+                 alt="Harry Potter Movie Poster">
+
+            <h3>Harry Potter Movie</h3>
+            <p><strong>Date:</strong> 25 February 2026</p>
+            <p><strong>Location:</strong> PVR Cinema</p>
+
+            <div class="details">
+                <p><strong>Venue:</strong> Hall A</p>
+                <p><strong>Time:</strong> 7:00 PM</p>
+                <p><strong>Ticket Price:</strong> ₹499</p>
+            </div>
+
+            <button class="details-btn">View Details</button>
+            <button class="book-btn">Book Ticket</button>
+        </div>
+
+        <!-- Concert Card -->
+        <div class="card">
+            <img src="https://imgs.search.brave.com/iybOSXgRU0o3BGBovGwgunVuSPwJfY8E-J-A_yypcck/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2MzLzYz/L2NhL2MzNjNjYWVh/ZWE3MDQ4NWEwYTY3/NmYzYTMyZjM1ZDQ0/LmpwZw"
+                 alt="Arijit Singh Concert">
+
+            <h3>Arijit Singh Live Concert</h3>
+            <p><strong>Date:</strong> 28 February 2026</p>
+            <p><strong>Location:</strong> City Stadium</p>
+
+            <div class="details">
+                <p><strong>Venue:</strong> Main Stage</p>
+                <p><strong>Time:</strong> 6:30 PM</p>
+                <p><strong>Ticket Price:</strong> ₹999</p>
+            </div>
+
+            <button class="details-btn">View Details</button>
+            <button class="book-btn">Book Ticket</button>
+        </div>
+
+        <!-- Sports Card -->
+        <div class="card">
+            <img src="https://imgs.search.brave.com/uHbnP_ncq_4pHljgK4nHqK20HJxqYDKSjDP0swplXrY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzE3LzQ5LzI1LzA0/LzM2MF9GXzE3NDky/NTA0OTBfakZscFRF/SHZDM1Y5aGxRVmIx/WlI2dEU5dGQ3Skt0/MlAuanBn"
+                 alt="Cricket Match">
+
+            <h3>Cricket Match</h3>
+            <p><strong>Date:</strong> 3 March 2026</p>
+            <p><strong>Location:</strong> National Stadium</p>
+
+            <div class="details">
+                <p><strong>Venue:</strong> Block B</p>
+                <p><strong>Time:</strong> 2:00 PM</p>
+                <p><strong>Ticket Price:</strong> ₹799</p>
+            </div>
+
+            <button class="details-btn">View Details</button>
+            <button class="book-btn">Book Ticket</button>
+        </div>
+
+    </section>
+
+    <!-- ===== Booking Section ===== -->
+    <section class="booking" id="booking">
+        <h2>Book Your Tickets</h2>
+
+        <form id="bookingForm">
+            <input type="text" id="name" placeholder="Enter your full name" required>
+            <input type="email" id="email" placeholder="Enter your email address" required>
+
+            <select id="eventSelect" required>
+                <option value="">Select an event</option>
+                <option>Harry Potter Special Screening</option>
+                <option>Arijit Singh Live Concert</option>
+                <option>Cricket Match</option>
+            </select>
+
+            <input type="number" id="tickets" placeholder="Number of tickets" min="1" required>
+
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </section>
+
+    <!-- ===== Footer Section ===== -->
+    <footer id="contact">
+        <p>📧 Email: support@eventhub.com</p>
+        <p>© 2026 EventHub. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
