@@ -45,13 +45,6 @@ EventHub/
 
 ---
 
-## 📸 Preview
-
-![Uploading Screenshot 2026-02-20 at 9.11.01 PM.png…]()
-
-
----
-
 ## 🧠 What I Learned
 
 - Semantic HTML structuring  
@@ -77,9 +70,9 @@ This project was created as part of a **Front-End Development Internship Task** 
 
 ## 📧 Contact
 
-👨‍💻 Harsh  
-📩 Add your email  
-🔗 Add your LinkedIn link  
+👨‍💻 Hemant Sharma 
+📩 hemantjvd@gmail.com
+🔗 https://www.linkedin.com/in/hemant-sharma-2361bb337/ 
 
 ---
 
