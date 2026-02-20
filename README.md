@@ -8,7 +8,7 @@ This project allows users to explore events (movies, concerts, sports), view eve
 
 ## 🚀 Live Demo
 
-🔗 Add your deployed link here (Netlify / GitHub Pages)
+ https://hemantsharma7707.github.io/Ticket-Booking/
 
 ---
 
@@ -47,7 +47,8 @@ EventHub/
 
 ## 📸 Preview
 
-(Add screenshots here after uploading them)
+![Uploading Screenshot 2026-02-20 at 9.11.01 PM.png…]()
+
 
 ---
 
