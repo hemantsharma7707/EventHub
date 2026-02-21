@@ -8,7 +8,7 @@ This project allows users to explore events (movies, concerts, sports), view eve
 
 ## 🚀 Live Demo
 
- https://hemantsharma7707.github.io/Ticket-Booking/
+ https://hemantsharma7707.github.io/EventHub/
 
 ---
 
